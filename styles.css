@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1200px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+
+  border: 2px solid black;
+}
+
+.example {
+  border: 2px solid green;
+  display: flex;
+  justify-content: space-around;
+
+  width: 800px;
+  margin: 50px 0;
+  background-color: #d6e9fe;
+  /* flex: 1; */
+}
+
+.absolute {
+  position: relative;
+}
+
+.item img {
+  display: block;
+}
+
+.item-relative {
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+
+.item-absolute {
+  position: absolute;
+  left: 0px;
+}
+
+.item-fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
